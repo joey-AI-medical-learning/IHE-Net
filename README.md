@@ -5,17 +5,24 @@ Mengyi Ju,Shiyin Zhang,Zutong Zhao,Bing Wang,Shuo Yang,Zhihong Wei
 # Usage
 We provide code, models, data_split and training weights for three datasets.{ [ISIC2017](https://challenge.isic-archive.com/data/),[ISIC2018](https://challenge.isic-archive.com/data/),and PH2}.
 
-#### 1. Clone the repo.;
+
+#### 1. Create conda environment and activate it:
+```
+conda create -n joey python=3.8
+conda activate joey
+```
+
+#### 2. Clone the repo.;
 
 ```
 https://github.com/joey-AI-medical-learning/IHE-Net.git
 ```
-#### 2. Put the data in './IHE-Net/data/';
-#### 3. Training;
+#### 3. Put the data in './IHE-Net/data/';
+#### 4. Training;
 ```
 python train_ISIC.py    #for ISIC training
 ``` 
-#### 4. Testing;
+#### 5. Testing;
 ```
 python test_ISIC.py    #for ISIC testing
 ```
