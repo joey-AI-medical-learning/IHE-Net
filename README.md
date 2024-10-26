@@ -3,12 +3,12 @@
 **Authors:**
 Mengyi Ju,Shiyin Zhang,Zutong Zhao,Bing Wang,Shuo Yang,Zhihong Wei
 # Usage
-We provide code, models, data_split and training weights for three datasets.{ [ISIC2017](https://challenge.isic-archive.com/data/),[ISIC2018](https://challenge.isic-archive.com/data/), and PH2}.
+We provide code, models, data_split and training weights for three datasets.{ [ISIC2017](https://challenge.isic-archive.com/data/),[ISIC2018](https://challenge.isic-archive.com/data/),and PH2}.
 
 #### 1. Clone the repo.;
 
 ```
-git@github.com:TaifengHuang/DD-Net.git
+https://github.com/joey-AI-medical-learning/IHE-Net.git
 ```
 #### 2. Put the data in './DD-Net/data/';
 #### 3. Training;
