@@ -1,7 +1,7 @@
-# Semi-supervised medical image segmentation via hidden feature discrepancy learning across heterogeneous encoders
+# IHE-Net:Hidden feature discrepancy fusion and triple consistency training for semi-supervised medical image segmentation
 
 **Authors:**
-Mengyi Ju,Shiyin Zhang,Zutong Zhao,Bing Wang,Shuo Yang,Zhihong Wei
+Mengyi Ju,Bing Wang,Zutong Zhao,Shiyin Zhang,Shuo Yang,Zhihong Wei
 # Usage
 We provide code, models, data_split and training weights for three datasets.{ [ISIC2017](https://challenge.isic-archive.com/data/),[ISIC2018](https://challenge.isic-archive.com/data/),and PH2}.
 
