@@ -63,6 +63,11 @@ class isic_loader(Dataset):
         if random.random() < 0.5:
             img = np.flip(img, axis=1)
             seg = np.flip(seg, axis=1)
+        if random.random() < 0.5:
+            angle = random.uniform(-15, 15)
+            img = rotate(img, angle, reshape=False, order=1, mode='reflect')
+            seg = rotate(seg, angle, reshape=False, order=0, mode='reflect')
+
         return img, seg
 
     def __len__(self):
